@@ -1,4 +1,4 @@
-{% set version = "0.0.3" %}
+{% set version = "1.6.0" %}
 
 package:
   name: podman-py
@@ -9,7 +9,7 @@ source:
   sha256: "3d0a787fe6f5e4e5317942de066eb17f14270c9694b5409f3708712109bc09a3"
 
 build:
-  number: 1
+  number: 0
   script: "{{ PYTHON }} -m pip install . --no-deps --ignore-installed -vv "
   skip: true  # [py<3 or win]
 
