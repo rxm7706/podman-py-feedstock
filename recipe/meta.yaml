@@ -6,7 +6,7 @@ package:
 
 source:
   url: "https://pypi.io/packages/source/p/podman/podman-{{ version }}.tar.gz"
-  sha256: "3d0a787fe6f5e4e5317942de066eb17f14270c9694b5409f3708712109bc09a3"
+  sha256: 5f6493ee9087126f1cd8f5e2bff708cada59f841aef6ea0ee594efbb5b17916c
 
 build:
   number: 0
