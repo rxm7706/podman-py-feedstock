@@ -17,12 +17,12 @@ requirements:
   host:
     - pbr
     - pip
-    - python >=3
+    - python
     - setuptools
   run:
     - pbr
     - psutil
-    - python >=3
+    - python
     - python-dateutil
     - setuptools
     - varlink
@@ -33,7 +33,7 @@ test:
 
 about:
   home: https://github.com/containers/python-podman
-  license: Apache 2.0
+  license: Apache-2.0
   license_family: APACHE
   license_file: LICENSE
   summary: "Python bindings and code examples for using Varlink access to Podman Service"
