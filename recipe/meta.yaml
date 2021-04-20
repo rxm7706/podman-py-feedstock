@@ -15,17 +15,14 @@ build:
 
 requirements:
   host:
-    - pbr
-    - pip
     - python
+    - pip
     - setuptools
   run:
-    - pbr
-    - psutil
     - python
-    - python-dateutil
-    - setuptools
-    - varlink
+    - requests >=2.24
+    - toml >=0.10.2
+    - urllib3 >=1.26,<1.27
 
 test:
   imports:
