@@ -18,6 +18,9 @@ requirements:
     - python
     - pip
     - setuptools
+    - requests >=2.24
+    - toml >=0.10.2
+    - urllib3 >=1.26,<1.27
   run:
     - python
     - requests >=2.24
