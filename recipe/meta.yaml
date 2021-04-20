@@ -1,17 +1,17 @@
-{% set version = "1.6.0" %}
+{% set version = "3.1.1.3" %}
 
 package:
   name: podman-py
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/p/podman/podman-{{ version }}.tar.gz
-  sha256: 5f6493ee9087126f1cd8f5e2bff708cada59f841aef6ea0ee594efbb5b17916c
+  url: https://github.com/containers/podman-py/archive/refs/tags/v{{ version }}.tar.gz
+  sha256: 507d0a56677a8ac90390792656dca2fe8487637375d64721a5efe4af34844e23
 
 build:
-  number: 2
+  number: 0
   script: "{{ PYTHON }} -m pip install . --no-deps --ignore-installed -vv "
-  skip: true  # [py<3 or win]
+  skip: true  # [win]
 
 requirements:
   host:
