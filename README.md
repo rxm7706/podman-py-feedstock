@@ -1,7 +1,7 @@
 About podman-py
 ===============
 
-Home: https://github.com/containers/python-podman
+Home: https://github.com/containers/podman-py
 
 Package license: Apache-2.0
 
@@ -9,7 +9,7 @@ Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/podman-py-feeds
 
 Summary: Python bindings and code examples for using Varlink access to Podman Service
 
-Development: https://github.com/containers/python-podman
+Development: https://github.com/containers/podman-py
 
 Current build status
 ====================
