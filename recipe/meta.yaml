@@ -32,12 +32,12 @@ test:
     - podman
 
 about:
-  home: https://github.com/containers/python-podman
+  home: https://github.com/containers/podman-py
   license: Apache-2.0
   license_family: APACHE
   license_file: LICENSE
   summary: Python bindings and code examples for using Varlink access to Podman Service
-  dev_url: https://github.com/containers/python-podman
+  dev_url: https://github.com/containers/podman-py
 
 extra:
   recipe-maintainers:
