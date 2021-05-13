@@ -21,12 +21,14 @@ requirements:
     - setuptools
     - requests >=2.24
     - toml >=0.10.2
+    - typing_extensions            # [py<=38]
     - urllib3 >=1.26,<1.27
   run:
     - python
     - pyxdg >=0.26,<0.27
     - requests >=2.24
     - toml >=0.10.2
+    - typing_extensions            # [py<=38]
     - urllib3 >=1.26,<1.27
 
 test:
