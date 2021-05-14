@@ -1,4 +1,4 @@
-{% set version = "3.1.2.2" %}
+{% set version = "3.1.2.3" %}
 
 package:
   name: podman-py
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://github.com/containers/podman-py/archive/refs/tags/{{ version }}.tar.gz
-  sha256: d3e333589db38e207348dc5e7e627cefc5209588fc2a931e8aa9074291f13e96
+  sha256: 12c65bee5a93ab60fdcd9eb6f8924fd3ff1a7f60459212c1e1cd3bc64ac488f5
 
 build:
   number: 0
