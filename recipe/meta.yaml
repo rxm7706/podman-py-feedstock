@@ -1,4 +1,4 @@
-{% set version = "3.2.1" %}
+{% set version = "4.5.1" %}
 
 package:
   name: podman-py
@@ -6,10 +6,10 @@ package:
 
 source:
   url: https://github.com/containers/podman-py/archive/refs/tags/v{{ version }}.tar.gz
-  sha256: 9bb5839af9ada03fe4f1d223162b0de96f71e5387519966b1bd218bf04301df0
+  sha256: 464631a8005e61a5118c2d408f373a327efb854074b70ef6e24985d90c0b2231
 
 build:
-  number: 2
+  number: 0
   script: '{{ PYTHON }} -m pip install . --no-deps --ignore-installed -vv '
   skip: true  # [win]
 
@@ -20,16 +20,16 @@ requirements:
     - pyxdg >=0.26
     - setuptools
     - requests >=2.24
-    - toml >=0.10.2
+    - tomli >=1.2.3                # [py<311]
     - typing_extensions            # [py<=38]
-    - urllib3 >=1.24.2
+    - urllib3 >=1.26.5,<2.0.0
   run:
     - python
     - pyxdg >=0.26
     - requests >=2.24
-    - toml >=0.10.2
+    - tomli >=1.2.3                # [py<311]
     - typing_extensions            # [py<=38]
-    - urllib3 >=1.24.2
+    - urllib3 >=1.26.5,<2.0.0
 
 test:
   imports:
