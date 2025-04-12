@@ -24,6 +24,7 @@ requirements:
     - setuptools >=46.4
     - sphinx
     - toml >=0.10.2
+    - tomli >=1.2.3
     - urllib3 >=1.24.2
     - wheel
   run:
@@ -31,6 +32,7 @@ requirements:
     - pyxdg >=0.26
     - requests >=2.24
     - toml >=0.10.2
+    - tomli >=1.2.3
     - urllib3 >=1.24.2
 
 test:
