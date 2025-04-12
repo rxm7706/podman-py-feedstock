@@ -6,7 +6,7 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/podman/podman-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/p/podman/podman-{{ version }}.tar.gz
   sha256: ee537aaa44ba530fad7cd939d886a7632f9f7018064e7831e8cb614c54cb1789
 
 build:
